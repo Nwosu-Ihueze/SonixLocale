@@ -47,4 +47,5 @@ h5{
  .hero-content{
      position: relative !important;
      left: 500px !important;
+     top: -350px;
  }
