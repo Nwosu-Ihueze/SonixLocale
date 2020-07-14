@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {//Check it is comming from a form
 	}	
 
 	//prepare sql insert query
-	$statement = $mysqli->prepare("INSERT INTO users_data (user_email, ) VALUES(?)"); 
+	$statement = $mysqli->prepare("INSERT INTO users_data (user_email) VALUES(?)"); 
 
 	//bind parameters for markers, where (s = string)
 	$statement->bind_param('s',$email); //bind values and execute insert query

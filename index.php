@@ -15,40 +15,48 @@
 
 </head>
 <body>
-<div class="container-fluid">
-    <div class="row">
-        <!--Text-->
-        <div class="col-lg-5">
-           <h1 class="animate__fadeInDown">Know the attendance</h1>
-           <h5 class="animate__slideInLeft">Its going to be sophisticated and simple, stay tuned. Coming soon...</h5>
-           <form class="animate__slideInRight" method="POST" action="process.php">
-               <label for="inputEmail" class="sr-only"></label>
-               <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Enter your email address" required>
-               <button class="btn btn-primary" type="submit">Get notified</button>
-          </form>  
-        </div>
-        <!--/Text-->
-    </div>
-    <div class="row">
-        <!--Image-->
-        <div class="col-lg-7">
-            <!--Slider Images-->
-            <div class="slider-main">
-                  <img src="1.jpg">
-                  <img src="2.jpg">
-                  <img src="3.jpg">
-                  <img src="4.jpg">
-                  <img src="5.jpg">
-                  <img src="6.jpg">
-                </div>
+<section class="hero" id="hero">
+        <div class="container">
+            <div class="row">
                 
+                <!--Text-->
+                <div class="col-lg-5">
+                    <!--Introduction-->
+                    <h1 class="animate__fadeInDown">Know the number of people around you</h1>
+                    <h5 class="animate__slideInLeft">Its going to be sophisticated and simple, stay tuned. Coming soon...</h5>
+                    <!--/ Introduction-->
+
+                    <!--Form-->
+                     <form class="animate__slideInRight" method="POST" action="process.php">
+                        <label for="inputEmail" class="sr-only"></label>
+                        <input type="email" name="user_email" id="user_email" class="form-control" placeholder="Enter your email address" required>
+                        <button class="btn btn-primary" type="submit">Get notified</button>
+                      </form>  
+                      <!--/ Form-->
+
+                </div>
+                <!--/Text-->
+
+                <!--Image-->
+                <div class="col-lg-7">
+                    <div class="hero-content">
+                        <!--Carousel Wrapper-->
+                        <div class="carousel-container" id="carousel">
+                            <img src="./assets/phone.png" id="item-1" />
+                            <img src="./assets/phone.png" id="item-2" />
+                            <img src="./assets/phone.png" id="item-3" />
+                            <img src="./assets/phone.png" id="item-4" />
+                            <img src="./assets/phone.png" id="item-5" />
+                            <img src="./assets/phone.png" id="item-6" />
+
+                        </div>
+                        <!--/Carousel Wrapper-->
+                    </div>
+                </div>
+                <!--/Image-->
+            </div>
         </div>
-    </div>
-        
-
-    
-</div>
-
+    </section>
    
     
     <!-- JS, Popper.js, and jQuery -->
