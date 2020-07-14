@@ -1,0 +1,46 @@
+body{
+    background-color: #090b13 !important;
+    position: absolute;
+}
+h1{
+    position: relative;
+    color: #ffffff;
+    width: 475px;
+    height: 130px;
+    font-size: 50px;
+    font-weight: 900px;
+    line-height: 65px;
+    top: 185px;
+    left: 98px;
+}
+h5{
+    position: relative;
+    color: #ffffff;
+    width: 319px;
+    height: 65px;
+    left: 98px;
+    top: 120px;
+}
+.form-control{
+    position: relative;
+    width: 335px;
+    height: 60px;
+    left: 98px;
+    top: 180px;
+}
+.btn-primary{
+    position: relative;
+    color: #042CBc;
+    left: 433px;
+    width: 150px;
+    height: 60px;
+    top: 120px;
+    color: #ffffff;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: bold;
+}
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
