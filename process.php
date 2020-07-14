@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {//Check it is comming from a form
 	$mysql_host = "localhost";
 	$mysql_username = "root";
 	$mysql_password = "";
-	$mysql_database = "test";
+	$mysql_database = "sonixlocale";
 	
 	 //set PHP variables 
 	$email = filter_var($_POST["user_email"], FILTER_SANITIZE_EMAIL);
