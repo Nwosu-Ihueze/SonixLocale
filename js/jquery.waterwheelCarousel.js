@@ -26,6 +26,7 @@
     }
 
     var carousel = this;
+    
     var options = {};
     var data = {};
 

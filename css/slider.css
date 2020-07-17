@@ -7,3 +7,16 @@
     display: hidden; /* hide images until carousel prepares them */
     cursor: pointer; /* not needed if you wrap carousel items in links */
   }
+
+  /* Tiny carousel starts */
+  
+  #tiny-carousel{
+    display: relative;
+    height: 67px;
+    width: 69px;
+  }
+
+  #tiny-carousel img{
+    display: hidden;
+    cursor: pointer;  
+  }

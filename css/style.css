@@ -1,44 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+
+
+
 body{
-    background-color: #090b13 !important;
-    position: absolute;
-}
-h1{
+    background: #090b13;
     position: relative;
-    color: #ffffff;
-    width: 475px;
-    height: 130px;
-    font-size: 50px;
-    font-weight: 900px;
-    line-height: 65px;
-    top: 185px;
-    left: 98px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100% !important;
+   
+    
 }
-h5{
-    position: relative;
-    color: #ffffff;
-    width: 319px;
-    height: 65px;
-    left: 98px;
-    top: 190px;
-}
+
 .form-control{
     position: relative;
     width: 335px;
     height: 60px;
-    left: 98px;
-    top: 220px;
+    left: -70px;
+    top: -60px;
+    border-radius: 0 !important;
 }
 .btn-primary{
     position: relative;
-    color: #042CBc;
-    left: 433px;
+    color: #042CBC;
+    left: 264px;
     width: 150px;
     height: 60px;
-    top: 160px;
+    top: -120px;
     color: #ffffff;
     line-height: 21px;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: bold !important;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0;
 }
 :root {
     --animate-duration: 800ms;
@@ -46,6 +41,30 @@ h5{
   }
  .hero-content{
      position: relative !important;
-     left: 150px !important;
-     top: 151px !important;
+     left: -70px !important;
+     top: 51px !important;
  }
+ img{
+     position: relative;
+     left: -70px;
+     top: 65.34px;
+ }
+ 
+ @media (max-width: 640px){
+    .hero-content{
+      height: 800px; 
+      display: flex;    
+      align-items: center;
+      padding-top: 30px;
+    }
+    
+        .mob{
+          position: relative;
+          left: 0!important
+         }
+       
+}
+ 
+ 
+
+ 
