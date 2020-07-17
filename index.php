@@ -89,7 +89,7 @@
             <div class="row">
                 
                 <!--Text-->
-                <div class="col-xl-5 col-md-5 col-sm-12">
+                <div class="col-12 col-xl-5 col-lg-5 col-md-5 col-sm-12">
                     <!--Introduction-->
                     <div class="mob">
 
@@ -150,7 +150,7 @@
                 <!--/Text-->
 
                 <!--Image-->
-                <div class="col-xl-7 col-md-7 col-sm-12">
+                <div class="col-12 col-xl-7 col-lg-7 col-md-7 col-sm-12">
                     <div class="hero-content">
                         <!--Carousel Wrapper-->
                         <div class="carousel-container" id="carousel">

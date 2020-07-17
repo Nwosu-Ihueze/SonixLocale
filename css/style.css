@@ -17,17 +17,17 @@ body{
     position: relative;
     width: 335px;
     height: 60px;
-    left: -80px;
-    top: 50px;
+    left: -70px;
+    top: -50px;
     border-radius: 0 !important;
 }
 .btn-primary{
     position: relative;
     color: #042CBC;
-    left: 250px;
+    left: 264px;
     width: 150px;
     height: 60px;
-    top: -10px;
+    top: -110px;
     color: #ffffff;
     line-height: 21px;
     font-size: 14px;
@@ -41,14 +41,18 @@ body{
   }
  .hero-content{
      position: relative !important;
-     left: -80px !important;
-     top: 151px !important;
+     left: -30px !important;
+     top: 101px !important;
  }
  img{
      position: relative;
-     left: -80px;
+     left: -70px;
      top: 65.34px;
  }
+ .alert-success{
+     top: 120px;
+ }
+ 
  @media (max-width: 640px){
     .hero-content{
       height: 800px; 
