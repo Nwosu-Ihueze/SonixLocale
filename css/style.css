@@ -2,29 +2,62 @@
 
 
 
+
+
+
 body{
     background: #090b13;
     position: relative;
+
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     width: 100% !important;
    
     
+
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    width: 475px;
+    height: 130px;
+    font-size: 50px;
+    font-weight: 900px !important;
+    line-height: 65px;
+    top: 125px !important;
+    left: 98px;
+}
+h5{
+    position: relative;
+    color: #ffffff;
+    width: 319px;
+    height: 65px;
+    left: 98px;
+    top: 190px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .form-control{
     position: relative;
     width: 335px;
     height: 60px;
+
     left: -70px;
     top: -60px;
+
+    left: 98px;
+    top: 220px;
+
     border-radius: 0 !important;
 }
 .btn-primary{
     position: relative;
     color: #042CBC;
+
     left: 264px;
+
+    left: 433px;
+
     width: 150px;
     height: 60px;
     top: -120px;
@@ -41,6 +74,7 @@ body{
   }
  .hero-content{
      position: relative !important;
+
      left: -70px !important;
      top: 51px !important;
  }
@@ -50,21 +84,4 @@ body{
      top: 65.34px;
  }
  
- @media (max-width: 640px){
-    .hero-content{
-      height: 800px; 
-      display: flex;    
-      align-items: center;
-      padding-top: 30px;
-    }
-    
-        .mob{
-          position: relative;
-          left: 0!important
-         }
-       
-}
- 
- 
-
  

@@ -42,6 +42,8 @@
 ?>
 
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,6 +55,7 @@
 <!--Custom CSS-->
 <link rel="stylesheet" href="./css/style.css">
 <!--Fonts-->
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
 <!--Rotator-->
 <link rel="stylesheet" href="./css/slider.css">
@@ -63,12 +66,20 @@
 <link href="./css/content-slider.css" rel="stylesheet">
 
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
+<!--Rotator-->
+<link rel="stylesheet" href="./css/slider.css">
+<!--Tiny Slider-->
+<link rel="stylesheet" href="./css/tiny-slider.css">
+
+
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 
 
 </head>
+
 <body style="background-image: url('./assets/bg.png');">
 <section class="hero" id="hero">
         <div class="container">
@@ -112,6 +123,24 @@
                         </div>
                     </div>
                 
+
+<body>
+<section class="hero" id="hero">
+        <div class="container">
+
+            <!--Counter-->
+            <img src="./assets/countdown.svg">
+            <!--/ Counter-->
+
+            <div class="row">
+                
+                <!--Text-->
+                <div class="col-xl-5">
+
+                    <!--Introduction-->
+                    <h1 class="title">Know the number of people around you</h1>
+                    <h5 class="text">Its going to be sophisticated and simple, stay tuned. Coming soon...</h5>
+
                     <!--/ Introduction-->
 
                     <?php if($msg != ''): ?>
@@ -120,13 +149,21 @@
                         </div>
                     <?php endif; ?>
 
+
                     <!--Form-->
                      <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+
+                    
+
+                    <!--Form-->
+                    <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+
                         <label for="inputEmail" class="sr-only"></label>
                         <input type="email" name="user_email" id="user_email" class="form-control" placeholder="Enter your email address" required>
                         <button class="btn btn-primary" type="submit" name="submit">Get notified</button>
                       </form>  
                       <!--/ Form-->
+
 
                 <!--Mode switcher-->
                 <div class="container">
@@ -167,6 +204,45 @@
                         <!--/Carousel Wrapper-->
                     </div>
                 </div>
+
+                </div>
+                <!--/Text-->
+
+                <!--Image-->
+                <div class="col-xl-7">
+                    <div class="hero-content">
+                        <!--Carousel Wrapper-->
+                        <div class="carousel-container" id="carousel">
+                            <img class='img-fluid' src="./assets/phone.png" id="item-1" />
+                            <img class='img-fluid' src="./assets/phone.png" id="item-2" />
+                            <img class='img-fluid' src="./assets/phone.png" id="item-3" />
+                            <img class='img-fluid' src="./assets/phone.png" id="item-4" />
+                            <img class='img-fluid' src="./assets/phone.png" id="item-5" />
+                            <img class='img-fluid' src="./assets/phone.png" id="item-6" />
+
+                        </div>
+
+                        <!--/Carousel Wrapper-->
+
+                    </div>
+
+                    <!--Tiny Carousel-->
+
+                    <div class="tiny-carousel" id="tiny-carousel">
+                        <img class='img-fluid' src="./assets/tiny-mobile.png" id="item-1" />
+                        <img class='img-fluid' src="./assets/tiny-mobile.png" id="item-2" />
+                        <img class='img-fluid' src="./assets/tiny-mobile.png" id="item-3" />
+                        <img class='img-fluid' src="./assets/tiny-mobile.png" id="item-4" />
+                        <img class='img-fluid' src="./assets/tiny-mobile.png" id="item-5" />
+                        <img class='img-fluid' src="./assets/tiny-mobile.png" id="item-6" />
+
+                      </div>
+
+                    <!--/ Tiny Carousel-->
+
+                </div>
+                
+
                 <!--/Image-->
 
             </div>
@@ -178,6 +254,7 @@
 <script src='./js/jquery.js'></script>
 <script src="./js/slider.js"></script>
 <script src="./js/jquery.waterwheelCarousel.js"></script>
+
 <!--Lightbox-->
 <script src="/path/to/cdn/jquery.min.js"></script>
 <script src="dist/js/lightbox.js"></script>
@@ -196,6 +273,9 @@
     $("body").toggleClass("light-theme");
   });
 </script>
+
+
+<script src="./js/tiny-slider.js"></script>
 
 
 
