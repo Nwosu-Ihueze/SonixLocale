@@ -27,7 +27,7 @@ body{
     left: 264px;
     width: 150px;
     height: 60px;
-    top: -110px;
+    top: -80px;
     color: #ffffff;
     line-height: 21px;
     font-size: 14px;
@@ -41,7 +41,7 @@ body{
   }
  .hero-content{
      position: relative !important;
-     left: -30px !important;
+     left: -20px !important;
      top: 101px !important;
  }
  img{
@@ -55,15 +55,15 @@ body{
  
  @media (max-width: 640px){
     .hero-content{
-      height: 800px; 
-      display: flex;    
-      align-items: center;
+      margin: 0;
       padding-top: 30px;
+      width: 100%;
     }
     
         .mob{
-          position: relative;
-          left: 0!important
+            margin: 0;
+            padding-top: 30px;
+            width: 100%;
          }
        
 }
