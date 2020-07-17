@@ -113,10 +113,10 @@
                               </li>
                               <li class="anim3">
                                 <div class="quote">Listening History at a glance</div>
-                                <div class="source">From your dashboard, you can see the trail of listening <br>
-                                 history. from number of people to the echo-geographical locations. <br>
-                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
-                                 tempor incididunt ut labore et dolore magna aliqua.</div>
+                                <div class="source">This technology uses sonic metrics such as reflection/deflection and <br>
+                                     estimated echometry/sonography to listen for the tiniest sound <br>
+                                     disturbance in matter within a specified radius (eg 100m radius) to <br>
+                                     determine how many people are present within that space.</div>
                               </li>
                             </ul>
                           </div>

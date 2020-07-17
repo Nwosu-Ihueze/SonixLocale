@@ -41,7 +41,7 @@ body{
   }
  .hero-content{
      position: relative !important;
-     left: -20px !important;
+     left: -30px !important;
      top: 101px !important;
  }
  img{
@@ -55,15 +55,15 @@ body{
  
  @media (max-width: 640px){
     .hero-content{
-      margin: 0;
+      height: 800px; 
+      display: flex;    
+      align-items: center;
       padding-top: 30px;
-      width: 100%;
     }
     
         .mob{
-            margin: 0;
-            padding-top: 30px;
-            width: 100%;
+          position: relative;
+          left: 0!important
          }
        
 }
