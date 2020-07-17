@@ -122,26 +122,7 @@
                           </div>
                         </div>
                     </div>
-                
-
-<body>
-<section class="hero" id="hero">
-        <div class="container">
-
-            <!--Counter-->
-            <img src="./assets/countdown.svg">
-            <!--/ Counter-->
-
-            <div class="row">
-                
-                <!--Text-->
-                <div class="col-xl-5">
-
-                    <!--Introduction-->
-                    <h1 class="title">Know the number of people around you</h1>
-                    <h5 class="text">Its going to be sophisticated and simple, stay tuned. Coming soon...</h5>
-
-                    <!--/ Introduction-->
+            
 
                     <?php if($msg != ''): ?>
                         <div class="alert <?php echo $msgClass; ?>">
@@ -149,13 +130,6 @@
                         </div>
                     <?php endif; ?>
 
-
-                    <!--Form-->
-                     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-
-                    
-
-                    <!--Form-->
                     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 
                         <label for="inputEmail" class="sr-only"></label>
@@ -209,38 +183,6 @@
                 <!--/Text-->
 
                 <!--Image-->
-                <div class="col-xl-7">
-                    <div class="hero-content">
-                        <!--Carousel Wrapper-->
-                        <div class="carousel-container" id="carousel">
-                            <img class='img-fluid' src="./assets/phone.png" id="item-1" />
-                            <img class='img-fluid' src="./assets/phone.png" id="item-2" />
-                            <img class='img-fluid' src="./assets/phone.png" id="item-3" />
-                            <img class='img-fluid' src="./assets/phone.png" id="item-4" />
-                            <img class='img-fluid' src="./assets/phone.png" id="item-5" />
-                            <img class='img-fluid' src="./assets/phone.png" id="item-6" />
-
-                        </div>
-
-                        <!--/Carousel Wrapper-->
-
-                    </div>
-
-                    <!--Tiny Carousel-->
-
-                    <div class="tiny-carousel" id="tiny-carousel">
-                        <img class='img-fluid' src="./assets/tiny-mobile.png" id="item-1" />
-                        <img class='img-fluid' src="./assets/tiny-mobile.png" id="item-2" />
-                        <img class='img-fluid' src="./assets/tiny-mobile.png" id="item-3" />
-                        <img class='img-fluid' src="./assets/tiny-mobile.png" id="item-4" />
-                        <img class='img-fluid' src="./assets/tiny-mobile.png" id="item-5" />
-                        <img class='img-fluid' src="./assets/tiny-mobile.png" id="item-6" />
-
-                      </div>
-
-                    <!--/ Tiny Carousel-->
-
-                </div>
                 
 
                 <!--/Image-->
@@ -275,8 +217,10 @@
 </script>
 
 
-<script src="./js/tiny-slider.js"></script>
-
+<script>
+    $("#alert-success").fadeout(1000);
+})
+</script>
 
 
 

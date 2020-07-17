@@ -1,9 +1,9 @@
 <?php
   // DB Params
-  $host = 'localhost';
-  $db_name = 'sound';
-  $username = 'root';
-  $password = 'root';
+  $host = 'us-cdbr-east-02.cleardb.com';
+  $db_name = 'heroku_821b7c555506098';
+  $username = 'bb5588a45742c3';
+  $password = 'd8de6791';
 
   try { 
     $con = new PDO("mysql:host={$host};dbname={$db_name}", $username, $password);
@@ -13,3 +13,10 @@
   }
 
 ?>
+
+
+
+
+
+
+

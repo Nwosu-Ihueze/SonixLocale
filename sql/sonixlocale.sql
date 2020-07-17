@@ -3,15 +3,8 @@ DROP DATABASE sonixlocale;
 CREATE DATABASE sonixlocale;
 
 
-CREATE TABLE `sound`.`users` (
+CREATE TABLE `heroku_821b7c555506098`.`users` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `user_email` VARCHAR(45) NULL,
   PRIMARY KEY (`id`));
-
-CREATE TABLE `sonixlocale`.`users` 
-(
-    `id` INT(11) NOT NULL AUTO_INCREMENT,
-    `user_email` VARCHAR(100) NOT NULL,
-PRIMARY KEY (`id`) 
-);
 

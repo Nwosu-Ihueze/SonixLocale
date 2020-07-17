@@ -83,5 +83,14 @@ h5{
      left: -70px;
      top: 65.34px;
  }
- 
+ .alert-success{
+     height: 40px;
+     font-size: 15px;
+     letter-spacing: 0;
+     text-align: center;
+     position: relative;
+     top: 80px;
+     background: transparent;
+     border: none;
+ }
  
