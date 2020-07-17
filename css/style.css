@@ -7,7 +7,6 @@ body{
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
     width: 100% !important;
    
     
@@ -60,7 +59,23 @@ body{
       align-items: center;
       padding-top: 30px;
     }
+    .slider .quote {
+        font-size: 25px;
+        font-style: bold;
+        font-weight: 900px !important;
+        width: 525px;
+        height: 130px;
+        line-height: 65px;
     
+      }
+      .slider .source {
+        font-size: 10px;
+        width: 525px;
+        height: 103px;
+        line-height: 25px;
+      }
+      
+
         .mob{
           position: relative;
           left: 0!important
