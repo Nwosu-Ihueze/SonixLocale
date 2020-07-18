@@ -51,7 +51,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
     <title>SonixLocale</title>
     <!-- Bootstrap-->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 <!--Custom CSS-->
 <link rel="stylesheet" href="./css/style.css">
 <!--Fonts-->
@@ -75,8 +76,7 @@
 <link rel="stylesheet" href="./css/tiny-slider.css">
 
 
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
 
 
 
@@ -115,10 +115,10 @@
                               </li>
                               <li class="anim3">
                                 <div class="quote">Listening History at a glance</div>
-                                <div class="source">From your dashboard, you can see the trail of listening <br>
-                                 history. from number of people to the echo-geographical locations. <br>
-                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
-                                 tempor incididunt ut labore et dolore magna aliqua.</div>
+                                <div class="source">This technology uses sonic metrics such as reflection/deflection and <br>
+                                     estimated echometry/sonography to listen for the tiniest sound <br>
+                                     disturbance in matter within a specified radius (eg 100m radius) to <br>
+                                     determine how many people are present within that space.</div>
                               </li>
                             </ul>
                           </div>
@@ -141,7 +141,7 @@
                       <!--/ Form-->
 
 
-                ></div>
+                </div>
                 <!--/Text-->
 
                 <!--Image-->
@@ -188,6 +188,9 @@
     
     
     <!-- JS, Popper.js, and jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script src='./js/jquery.js'></script>
 <script src="./js/slider.js"></script>
 <script src="./js/jquery.waterwheelCarousel.js"></script>
