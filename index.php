@@ -84,18 +84,18 @@
 
 <body style="background-image: url('./assets/bg.png');">
 <section class="hero" id="hero">
-        <div class="container">
+        <div class="container-fluid row justify-content-center justify-content-md-left px-2 px-md-3">
            <!--Counter-->
                 <img src="./assets/countdown.svg">
             <!--/ Counter-->
             <div class="row">
                 
                 <!--Text-->
-                <div class="col-12 col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                <div class="col-12 col-sm-5">
                     <!--Introduction-->
                     <div class="mob">
 
-                    <div class="content-slider">
+                    <div class="content-slider row justify-content-center justify-content-md-left px-2 px-md-3">
                         <div class="slider">
                           <div class="mask">
                             <ul>
@@ -145,8 +145,8 @@
                 <!--/Text-->
 
                 <!--Image-->
-                <div class="col-12 col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                    <div class="hero-content">
+                <div class="col-12 col-sm-5">
+                    <div class="hero-content row justify-content-center justify-content-md-left px-2 px-md-3">
                         <!--Carousel Wrapper-->
                         <div class="carousel-container" id="carousel">
                             <a class="sonix" href="./assets/onboarding.png" data-lightbox="gallery">
