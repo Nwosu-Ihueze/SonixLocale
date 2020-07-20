@@ -8,15 +8,19 @@
     cursor: pointer; /* not needed if you wrap carousel items in links */
   }
 
-  /* Tiny carousel starts */
+  @media (max-width: 767px){
+    
+    #carousel {
+     width:400px;
+     height: 150px;
+     display: relative;
+   }
+   #carousel img {
+     display: hidden; /* hide images until carousel prepares them */
+     cursor: pointer; /* not needed if you wrap carousel items in links */
+   }
+ 
   
-  #tiny-carousel{
-    display: relative;
-    height: 67px;
-    width: 69px;
-  }
-
-  #tiny-carousel img{
-    display: hidden;
-    cursor: pointer;  
+          
+         
   }

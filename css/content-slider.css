@@ -26,7 +26,7 @@
     top: 85px !important;
     right: 98px;
     list-style: none;
-    left: -70px;
+    left: -98px;
     font-weight: 900px !important;
     font-style: bold !important;
     color: #ffffff;
@@ -73,6 +73,61 @@
   .slider:hover li {
     animation-play-state: paused;
   }
+
+  /* Mdia query */
+  @media (max-width: 767px){
+    .content-slider {
+        width: 100%;
+        height: 180px;
+      }
+      
+      .slider {
+        height: 160px;
+        width: 340px;
+        overflow: visible;
+        position: relative;
+      }
+      
+      .mask {
+        height: 160px;
+      }
+      
+      .slider ul {
+        margin: 0;
+        padding: 0;
+        position: relative;
+      }
+      .slider li{
+          position: absolute;
+          left: 2%;
+          top: 164px !important;
+          list-style: none;
+          color: #ffffff;
+      }
+      
+      .slider .quote {
+    
+        font-size: 25px;
+        font-style: normal;
+        text-align: center;
+        width: 292px;
+        height: 99px;
+        line-height: 130.5%;
+        
+        
+       
+      }
+      
+      .slider .source {
+         width: 283px;
+        font-size: 14px;
+        height: 103px;
+        text-align: center;
+        
+        margin-bottom: 3px;
+        line-height: 15px;
+      }
+    }
   
   @keyframes cycle {
     0% {
